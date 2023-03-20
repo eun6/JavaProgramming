@@ -39,13 +39,6 @@ public class Num12_1 {
 		} else {
 			System.out.print("제대로 된 연산자를 입력하세요.");
 		}
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

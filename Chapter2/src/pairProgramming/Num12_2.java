@@ -45,11 +45,6 @@ public class Num12_2 {
 			default : {
 				System.out.print("제대로 된 연산자를 입력하세요.");
 			}
-		
-			
-			
-			
-			
 		}
 	}
 
