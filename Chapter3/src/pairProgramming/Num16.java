@@ -2,6 +2,7 @@ package pairProgramming;
 
 import java.util.Scanner;
 
+//가위, 바위, 보 게임
 public class Num16 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
