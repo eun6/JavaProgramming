@@ -52,15 +52,8 @@ public class Num16 {
 					}
 				}
 				System.out.println("사용자 = " + answer + " , 컴퓨터 = " + computer + ", " + winner + "가 이겼습니다.");
-			}
-			
-				
-			
-			
-			
+			}	
 		}
-		
-			
-		
+		sc.close();
 	}
 }
