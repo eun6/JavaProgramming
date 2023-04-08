@@ -3,12 +3,18 @@ package pairProgramming;
 import java.util.Scanner;
 
 class Phone {
-	String name;
-	String tel;
+	private String name;
+	private String tel;
 	
 	public Phone(String name, String tel) {
 		this.name = name;
 		this.tel = tel;
+	}
+	public String getName() {
+		return name;
+	}
+	public String getTel() {
+		return tel;
 	}
 	public void show() {
 		System.out.println(name + "의 번호는 " + tel + " 입니다.");
@@ -38,7 +44,7 @@ public class Num_8 {
 			
 			if (search.equals("그만")) break;
 			for(Phone a : p) {
-				if (a.name.equals(search)) {
+				if (a.getName().equals(search)) {
 					a.show();
 					found = true;
 					break;
