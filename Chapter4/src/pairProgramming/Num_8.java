@@ -22,13 +22,8 @@ class Phone {
 }
 
 public class Num_8 {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.print("인원수>>");
-		int num = sc.nextInt();
-		Phone[] p = new Phone[num];
-		
+	static Scanner sc = new Scanner(System.in);
+	public static void insert(int num, Phone[] p) {
 		for(int i=0; i<num; i++) {
 			System.out.print("이름과 전화번호(이름과 번호는 빈 칸없이 입력)>>");
 			String user = sc.next();
@@ -36,7 +31,9 @@ public class Num_8 {
 			p[i] = new Phone(user, tel);
 		}
 		System.out.println("저장되었습니다...");
-		
+	}
+	
+	public static void search(Phone[] p) {
 		while(true) {
 			boolean found = false;
 			System.out.print("검색할 이름>>");
@@ -54,6 +51,16 @@ public class Num_8 {
 				System.out.println(search + "이 없습니다.");
 			}
 		}
+	}
+
+	public static void main(String[] args) {
+		System.out.print("인원수>>");
+		int num = sc.nextInt();
+		Phone[] p = new Phone[num];
+		
+		insert(num, p);
+		search(p);
+		
 		sc.close();
 	}
 
