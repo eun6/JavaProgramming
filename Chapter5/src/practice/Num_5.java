@@ -26,5 +26,4 @@ public class Num_5 {
 		String str = cp.toString();
 		System.out.println(str + "입니다.");
 	}
-
 }

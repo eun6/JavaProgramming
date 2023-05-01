@@ -31,5 +31,4 @@ public class Num_6 {
 		cp.setColor("RED");
 		System.out.println(cp.toString() + "입니다.");
 	}
-
 }

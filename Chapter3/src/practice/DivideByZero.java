@@ -16,10 +16,7 @@ public class DivideByZero {
 		try {
 			System.out.println(num1 + "을 " + num2 + "로 나누면 몫은 " + num1/num2 + "입니다.");
 		}
-		catch(Exception e) {
-			System.out.println("계산 오류가 발생했습니다.");
-		}
-		
+		catch(Exception e) {System.out.println("계산 오류가 발생했습니다.");}
 	}
 
 }

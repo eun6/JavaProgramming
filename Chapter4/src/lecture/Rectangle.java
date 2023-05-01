@@ -19,5 +19,4 @@ public class Rectangle {
 		System.out.println("면적은 " + r.getArea());
 		sc.close();
 	}
-
 }

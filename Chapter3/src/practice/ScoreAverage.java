@@ -16,7 +16,6 @@ public class ScoreAverage {
 			}
 		}
 		
-		System.out.println("4년 전체 평점 평균은 " + sum /(score.length*score[0].length));
-	}
+		System.out.println("4년 전체 평점 평균은 " + sum /(score.length*score[0].length));}
 
 }

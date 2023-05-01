@@ -36,5 +36,4 @@ public class BookArray {
 			a.printAll();
 		}
 	}
-
 }

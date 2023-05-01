@@ -42,5 +42,4 @@ public class Num_3 {
 		Km2Mile toMile = new Km2Mile(1.6);
 		toMile.run();
 	}
-
 }

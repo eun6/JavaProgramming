@@ -15,12 +15,8 @@ public class ArrayAccess {
 		for(int i=0; i< Arr.length; i++) {
 			Arr[i] = sc.nextInt();;
 			if(Arr[i] < 0) continue;
-			else {
-				sum += Arr[i];
-			}
-			if (Arr[i] > Max) {
-				Max = Arr[i];
-			}
+			else sum += Arr[i];
+			if (Arr[i] > Max) Max = Arr[i];
 		}
 		System.out.println("전체 합은 " + sum + "입니다.");
 		System.out.println("가장 큰 수는 " + Max + "입니다.");

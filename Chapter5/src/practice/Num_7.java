@@ -39,5 +39,4 @@ public class Num_7 {
 		p.move(100, 200, 300);
 		System.out.println(p.toString() + "입니다.");
 	}
-
 }

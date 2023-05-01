@@ -36,5 +36,4 @@ public class Num_8 {
 		PositivePoint p2 = new PositivePoint(-10, -10);
 		System.out.println(p2.toString() + "입니다.");
 	}
-
 }
