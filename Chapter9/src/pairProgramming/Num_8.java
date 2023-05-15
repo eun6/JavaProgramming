@@ -20,7 +20,6 @@ class CenterPanel extends JPanel {
 			int x = (int) (Math.random()*250);
 			int y = (int) (Math.random()*250);
 			JLabel la = new JLabel("*");
-			la.setOpaque(true);
 			la.setForeground(Color.RED);
 			la.setLocation(x, y);
 			la.setSize(10, 10);
