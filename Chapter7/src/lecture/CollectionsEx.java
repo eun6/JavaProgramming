@@ -22,6 +22,7 @@ public class CollectionsEx {
 		
 		myList.add(0, "터미네이터");
 		myList.add(2, "아바타");
+		printList(myList);
 		
 		//sort의 기준은 가나다~
 		Collections.sort(myList);
@@ -33,5 +34,4 @@ public class CollectionsEx {
 		int index = Collections.binarySearch(myList, "아바타") +1;
 		System.out.println("아바타는 " + index + "번째 요소입니다.");
 	}
-
 }

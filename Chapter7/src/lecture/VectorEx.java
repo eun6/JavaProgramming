@@ -31,5 +31,4 @@ public class VectorEx {
 		System.out.println("백터에 있는 정수 합 : " + sum);
 		
 	}
-
 }

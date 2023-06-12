@@ -35,5 +35,4 @@ public class HashMapStudentEx {
 		}
 		sc.close();
 	}
-
 }
